@@ -1,6 +1,6 @@
 {% set name = "xenon" %}
-{% set version = "0.5.5" %}
-{% set sha256 = "26f65adb5d411ba3efc361dc5ab6cd341a243a33b5a526c89350240c765899b9" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "64cad081ea191c4e005053b7f044fea73b16c3e2b6bacbd823c8f80c71e8a38f" %}
 
 
 package:
