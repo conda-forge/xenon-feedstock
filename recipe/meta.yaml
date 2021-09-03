@@ -1,6 +1,6 @@
 {% set name = "xenon" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "5e6433c9297d965bf666256a0a030b6e13660ab87680220c4eb07241f101625b" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "cd5cad0930673d0e52609712c63fe4721a8f4c4342dc338bd7ea5fa0666b8515" %}
 
 
 package:
@@ -20,7 +20,7 @@ build:
     - xenon = xenon:main
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
@@ -39,8 +39,8 @@ about:
   home: https://github.com/rubik/xenon
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Monitor code metrics for Python on your CI server'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Monitor code metrics for Python on your CI server
 
   description: |
     Xenon is a monitoring tool based on Radon. It monitors your code’s complexity.
