@@ -1,6 +1,6 @@
 {% set name = "xenon" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "38bf283135f0636355ecf6054b6f37226af12faab152161bda1a4f9e4dc5b701" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "cd5cad0930673d0e52609712c63fe4721a8f4c4342dc338bd7ea5fa0666b8515" %}
 
 
 package:
@@ -20,7 +20,7 @@ build:
     - xenon = xenon:main
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
